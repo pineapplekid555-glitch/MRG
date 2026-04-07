@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metro Roleplay Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">MRG</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#divisions">Divisions</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+      <a class="btn btn-small" href="#join">Apply</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">METRO ROLEPLAY GROUP</p>
+      <h1>Serve the City.<br />Build Your Story.</h1>
+      <p class="lead">
+        A serious but welcoming roleplay community focused on immersive patrols,
+        realistic procedures, and unforgettable scenes.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#join">Join the Community</a>
+        <a class="btn btn-ghost" href="#divisions">View Divisions</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About Metro Roleplay Group</h2>
+      <p>
+        Metro Roleplay Group is built for players who enjoy structured, high-quality
+        scenarios with a strong sense of teamwork. Whether you're a veteran officer
+        or a new recruit, you'll find training, support, and a place to grow.
+      </p>
+      <div class="stats">
+        <article>
+          <h3>150+</h3>
+          <p>Active Members</p>
+        </article>
+        <article>
+          <h3>Weekly</h3>
+          <p>Organized Patrols</p>
+        </article>
+        <article>
+          <h3>24/7</h3>
+          <p>Community Support</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="divisions" class="section alt">
+      <h2>Our Divisions</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Metro Police Department</h3>
+          <p>Frontline patrols, traffic enforcement, and rapid response.</p>
+        </article>
+        <article class="card">
+          <h3>Special Operations</h3>
+          <p>High-risk incidents, tactical entries, and coordinated operations.</p>
+        </article>
+        <article class="card">
+          <h3>Communications & Dispatch</h3>
+          <p>Coordinate calls, route units, and keep patrols flowing smoothly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="join" class="section cta">
+      <h2>Ready to Join Metro Roleplay Group?</h2>
+      <p>Start your application and become part of one of the most engaging roleplay communities around.</p>
+      <form class="join-form" aria-label="Join form">
+        <input type="text" placeholder="Your Discord Username" required />
+        <input type="email" placeholder="Email Address" required />
+        <button type="submit" class="btn">Submit Application</button>
+      </form>
+      <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Metro Roleplay Group. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
